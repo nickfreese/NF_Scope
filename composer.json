@@ -1,0 +1,22 @@
+{
+    "name": "NF/module-scope",
+    "description": "",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "nick@nickfreese.com",
+            "name": "Nick Freese"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "NF\\Scope\\": ""
+        }
+    }
+}
